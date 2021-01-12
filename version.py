@@ -10,3 +10,9 @@ print(requests.__copyright__)
 # get google home page
 x = requests.get('https://www.google.com/')
 print(x.status_code)
+
+url = 'https://github.com/youwei1-sudo/CMPUT404LAB1/blob/main/version.py'
+
+myfile = requests.get(url)
+
+print(myfile.text)
