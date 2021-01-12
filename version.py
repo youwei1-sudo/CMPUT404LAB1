@@ -11,7 +11,7 @@ print(requests.__copyright__)
 x = requests.get('https://www.google.com/')
 print(x.status_code)
 
-url = 'https://github.com/youwei1-sudo/CMPUT404LAB1/blob/main/version.py'
+url = 'https://raw.githubusercontent.com/youwei1-sudo/CMPUT404LAB1/main/version.py'
 
 myfile = requests.get(url)
 
